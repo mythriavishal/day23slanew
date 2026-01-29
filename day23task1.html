@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="line1">This is the line that is gonna be changed after clicking.</p><br>
+    <button onclick="Changetext()">click me</button>
+    <script>
+        function Changetext(){
+            document.getElementById("line1").innerHTML="changed text";
+        }
+    </script>
+</body>
+</html>

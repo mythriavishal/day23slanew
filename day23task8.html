@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita error fugiat dolor iste natus cupiditate cumque nihil corrupti voluptates facilis.</p>
+
+    <p>THis is a different para and this will be applied on first para after clicking the buton.</p>
+
+    <button onclick="change()">Click Here </button>
+
+    <script>
+        function change(){
+        const x=document.querySelectorAll("p");
+        x[0].innerHTML=x[1].innerHTML;
+        }
+    </script>
+</body>
+</html>

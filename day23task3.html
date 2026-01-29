@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="p1">This is the sample para...</p><br>
+    <button onclick="hide()">Click this to hide</button><br>
+    <button onclick="show()">Click to show again</button><br>
+
+
+    <script>
+        let x=document.getElementsByClassName("p1")[0].innerHTML;
+        function hide(){
+            document.querySelector(".p1").innerHTML=" ";
+        }
+        function show(){
+            document.querySelector(".p1").innerHTML=x;
+        }
+    </script>
+
+</body>
+</html>
